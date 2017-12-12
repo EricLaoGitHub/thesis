@@ -1,0 +1,1629 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Abthoff1996}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Abthoff}{A.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johannes}{J.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ATJF1}
+  \strng{fullhash}{ATJF1}
+  \field{labelalpha}{AJ96}
+  \field{sortinit}{A}
+  \field{booktitle}{EURO-DAC ’96 with EURO-VHDL ’96}
+  \field{pages}{398\bibrangedash 403}
+  \field{title}{TINA : Analog Placement Using Enumerative Techniques Capable of
+  Optimizing Both Area and Net Length}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=252539
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/TINA-Analog Placement Using E
+  \verb numerative Techniques Capable of Optimizing Both Area and Net Length.pd
+  \verb f:PDF
+  \endverb
+  \field{year}{1996}
+\endentry
+
+\entry{Balasa2000.2}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Balasa}{B.}%
+     {Florin}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{binary trees block placement block placement configurations
+  device-level placement problems non-slicing floorplans modelling one-to-one
+  mapping ordered trees symmetry constraints}
+  \strng{namehash}{BF1}
+  \strng{fullhash}{BF1}
+  \field{labelalpha}{Bal00}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the 2000 IEEE/ACM international conference
+  on Computer-aided design}
+  \verb{doi}
+  \verb 10.1109/ICCAD.2000.896443
+  \endverb
+  \field{pages}{13\bibrangedash 16}
+  \field{title}{Modeling non-slicing floorplans with binary trees}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=896443&navig
+  \verb ation=1
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Modeling Non-Slicing Floorplan
+  \verb s with Binary Trees.pdf:PDF
+  \endverb
+  \field{year}{2000}
+\endentry
+
+\entry{Balasa2000}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Balasa}{B.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lampaert}{L.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{VLSI analog design complex symmetry constraints device-level placement
+  industrial environment placement tool sequence-pair representation simulated
+  annealing spatial representations symmetry-related aspects}
+  \strng{namehash}{BFLK1}
+  \strng{fullhash}{BFLK1}
+  \field{labelalpha}{BL00}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1109/43.851988
+  \endverb
+  \field{pages}{721\bibrangedash 731}
+  \field{title}{Symmetry within the sequence-pair representation in the context
+  of placement for analog design}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/abstractKeywords.jsp?arnumber=851988&nav
+  \verb igation=1
+  \endverb
+  \field{volume}{19}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Symmetry within the sequence-p
+  \verb air representation in the context of placement for analog design.pdf:PD
+  \verb F
+  \endverb
+  \field{journaltitle}{Computer-Aided Design of Integrated Circuits and
+  Systems, IEEE Transactions on}
+  \field{year}{2000}
+\endentry
+
+\entry{Balasa2001}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Balasa}{B.}%
+     {Florin}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maruvada}{M.}%
+     {Sarat~C}{S.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BFMSC1}
+  \strng{fullhash}{BFMSC1}
+  \field{labelalpha}{BM01}
+  \field{sortinit}{B}
+  \field{booktitle}{IEICE TRANSACTIONS on Fundamentals of Electronics,
+  Communications and Computer Sciences}
+  \field{number}{11}
+  \field{pages}{2785\bibrangedash 2792}
+  \field{title}{Using Non-slicing Topological Representations for Analog
+  Placement}
+  \verb{url}
+  \verb http://search.ieice.org/bin/summary.php?id=e84-a_11_2785
+  \endverb
+  \field{volume}{84}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Using Non-slicing Topological
+  \verb  Representations for Analog Placement.pdf:PDF
+  \endverb
+  \field{year}{2001}
+\endentry
+
+\entry{Balasa2002}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Balasa}{B.}%
+     {Florin}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maruvada}{M.}%
+     {Sarat~C}{S.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamoorthy}{K.}%
+     {Karthik}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{analog computers experimentation placement and routing routing and
+  layout theory}
+  \strng{namehash}{BFMSCKK1}
+  \strng{fullhash}{BFMSCKK1}
+  \field{labelalpha}{BMK02}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the 2002 IEEE/ACM international conference
+  on Computer-aided design}
+  \verb{doi}
+  \verb 10.1145/774572.774645
+  \endverb
+  \field{pages}{497\bibrangedash 502}
+  \field{title}{Efficient solution space exploration based on segment trees in
+  analog placement with symmetry constraints}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=774645
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Efficient solution space explo
+  \verb ration based on segment trees in analog placement with symmetry constra
+  \verb ints.pdf:PDF
+  \endverb
+  \field{year}{2002}
+\endentry
+
+\entry{Chang2000}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Chang}{C.}%
+     {Yun-Chih}{Y.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Guang-Ming}{G.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Shu-Wei}{S.-W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Binary search trees Circuit simulation Costs Information science
+  Performance evaluation Permission Silicon Simulated annealing Tree graphs
+  Very large scale integration}
+  \strng{namehash}{CYC+1}
+  \strng{fullhash}{CYCCYWWGMWSW1}
+  \field{labelalpha}{Cha+00}
+  \field{sortinit}{C}
+  \field{booktitle}{Proceedings of the 37th Annual Design Automation
+  Conference}
+  \verb{doi}
+  \verb 10.1109/DAC.2000.855354
+  \endverb
+  \field{pages}{458\bibrangedash 463}
+  \field{title}{B*-Trees: a new representation for non-slicing floorplans}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=855354
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/B*-trees\: A new representatio
+  \verb n for nonslicing floorplans.pdf:PDF
+  \endverb
+  \field{year}{2000}
+\endentry
+
+\entry{Chou2011}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Chou}{C.}%
+     {Pang-Yen}{P.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ou}{O.}%
+     {Hung-Chih}{H.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE Press}%
+  }
+  \strng{namehash}{CPYOHCCYW1}
+  \strng{fullhash}{CPYOHCCYW1}
+  \field{labelalpha}{COC11}
+  \field{sortinit}{C}
+  \field{booktitle}{Proceedings of the International Conference on
+  Computer-Aided Design}
+  \field{pages}{512\bibrangedash 516}
+  \field{title}{Heterogeneous B*-trees for analog placement with symmetry and
+  regularity considerations}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=2132445
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Heterogeneous B*-trees for An
+  \verb alog Placement with Symmetry and Regularity Considerations.pdf:PDF
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{Long2006}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Di}{D.}%
+     {Long}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xianlong}{X.}%
+     {Hong}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sheqin}{S.}%
+     {Dong}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{signal-path, analog placement, layout automation, punishment items in
+  the cost function. ILAC [5], circuit partition, symmetry constrain, device
+  merging KOAN/ANAGRAM II [6], PUPPY-A [7] and LAYLA [8] all}
+  \strng{namehash}{DLXHSD1}
+  \strng{fullhash}{DLXHSD1}
+  \field{labelalpha}{DXS06}
+  \field{sortinit}{D}
+  \field{booktitle}{Design Automation, 2006. Asia and South Pacific Conference
+  on}
+  \verb{doi}
+  \verb 10.1109/ASPDAC.2006.1594767
+  \endverb
+  \field{pages}{6\bibrangedash pp}
+  \field{title}{Signal-Path Driven Partition and Placement for Analog Circuit}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1594767&
+  \verb queryText%3DSignal-Path+Driven+Partition+and+Placement+for+Analog+Circu
+  \verb it
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Signal-Path Driven Partition a
+  \verb nd Placement for Analog Circuit.pdf:PDF
+  \endverb
+  \field{year}{2006}
+\endentry
+
+\entry{Guo1999}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Guo}{G.}%
+     {Pei-Ning}{P.-N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Chung-Kuan}{C.-K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoshimura}{Y.}%
+     {Takeshi}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{GPNCCKYT1}
+  \strng{fullhash}{GPNCCKYT1}
+  \field{labelalpha}{GCY99}
+  \field{sortinit}{G}
+  \field{booktitle}{Proceedings of the 36th annual ACM/IEEE Design Automation
+  Conference}
+  \field{pages}{268\bibrangedash 273}
+  \field{title}{An O-tree representation of non-slicing floorplan and its
+  applications}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=309928
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/An O-tree representation of n
+  \verb on-slicing floorplan and its applications.pdf:PDF
+  \endverb
+  \field{year}{1999}
+\endentry
+
+\entry{Jepsen83}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Jepsen}{J.}%
+     {D.W.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jr.}{J.}%
+     {C.D.~Gellat}{C.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JDJCG1}
+  \strng{fullhash}{JDJCG1}
+  \field{labelalpha}{JJ83}
+  \field{sortinit}{J}
+  \field{booktitle}{in Proc. IEEE Int. Conf. on Comp. Design}
+  \field{pages}{495\bibrangedash 498}
+  \field{title}{Macro placement by Monte Carlo annealing}
+  \field{year}{1983}
+\endentry
+
+\entry{kirkpatrick83}{article}{}
+  \true{moreauthor}
+  \name{author}{3}{}{%
+    {{}%
+     {Kirkpatrick}{K.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gelatt}{G.}%
+     {C~Daniel}{C.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vecchi}{V.}%
+     {Mario~P}{M.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Washington}%
+  }
+  \strng{namehash}{KSGCDVMP+1}
+  \strng{fullhash}{KSGCDVMP+1}
+  \field{labelalpha}{KGV+83}
+  \field{sortinit}{K}
+  \field{number}{4598}
+  \field{pages}{671\bibrangedash 680}
+  \field{title}{Optimization by simulated annealing}
+  \field{volume}{220}
+  \field{journaltitle}{science}
+  \field{year}{1983}
+\endentry
+
+\entry{Lin2001}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Jai-Ming}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \keyw{Floorplanning, Layout, Physical Design, Tran- search an optimal
+  solution for module placement. Since the}
+  \strng{namehash}{LJMCYW1}
+  \strng{fullhash}{LJMCYW1}
+  \field{labelalpha}{LC01}
+  \field{sortinit}{L}
+  \field{booktitle}{Proceedings of the 38th annual Design Automation
+  Conference}
+  \field{pages}{764\bibrangedash 769}
+  \field{title}{TCG: a transitive closure graph-based representation for
+  non-slicing floorplans}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1393028&
+  \verb url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D
+  \verb 1393028
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/TCG\: A transitive closure gr
+  \verb aph-based representation for general floorplans.pdf:PDF
+  \endverb
+  \field{year}{2001}
+\endentry
+
+\entry{Lin2004a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lin}{L.}%
+     {JM}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {YW}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institute of Electrical \& Electronics Engineers (IEEE)}%
+  }
+  \strng{namehash}{LJCY1}
+  \strng{fullhash}{LJCY1}
+  \field{labelalpha}{LC04}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1109/tcad.2004.828114
+  \endverb
+  \field{issn}{0278-0070}
+  \field{number}{6}
+  \field{pages}{968\bibrangedash 980}
+  \field{title}{TCG-S: orthogonal coupling of P*-admissible representation with
+  worst case linear-time packing scheme}
+  \verb{url}
+  \verb http://dx.doi.org/10.1109/TCAD.2004.828114
+  \endverb
+  \field{volume}{23}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/TCG-S\: orthogonal coupling o
+  \verb f P*-admissible representations for general floorplans.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{2004}
+\endentry
+
+\entry{Lin09}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Po-Hung}{P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Shyh-Chang}{S.-C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \keyw{B*-tree representation automatically symmetric-feasible B*-trees
+  linear-time-packing algorithm nonsymmetric modules symmetry islands
+  symmetry-island formulation topological floorplan representations}
+  \strng{namehash}{LPHCYWLSC1}
+  \strng{fullhash}{LPHCYWLSC1}
+  \field{labelalpha}{LCL09}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1109/TCAD.2009.2017433
+  \endverb
+  \field{number}{6}
+  \field{pages}{791\bibrangedash 804}
+  \field{title}{Analog placement based on symmetry-island formulation}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4957593&
+  \verb url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D
+  \verb 4957593
+  \endverb
+  \field{volume}{28}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Analog Placement Based on Symm
+  \verb etry-Island Formulation.pdf:PDF;:users/cao/lao/Desktop/Articles/Externe
+  \verb s/Analog Placement Based on Novel Symmetry-Island Formulation.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{2009}
+\endentry
+
+\entry{Ming2005}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Jai-Ming}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Guang-Ming}{G.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chuang}{C.}%
+     {Jen-Hui}{J.-H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \keyw{TCG-S analog layout design area utilization device matching module
+  placement polynomial-time packing algorithm symmetry constraints symmetry
+  modules transitive closure graph-sequence}
+  \strng{namehash}{LJM+1}
+  \strng{fullhash}{LJMWGMCYWCJH1}
+  \field{labelalpha}{Lin+05}
+  \field{sortinit}{L}
+  \field{booktitle}{Proceedings of the 2005 Asia and South Pacific Design
+  Automation Conference}
+  \verb{doi}
+  \verb 10.1109/ASPDAC.2005.1466541
+  \endverb
+  \field{pages}{1135\bibrangedash 1137}
+  \field{title}{Placement with symmetry constraints for analog layout design
+  using TCG-S}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/abstractKeywords.jsp?tp=&arnumber=146654
+  \verb 1&queryText%3DPlacement+with+symmetry+constraints+for+analog+layout+des
+  \verb ign
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Placement with Symmetry Constr
+  \verb aints for Analog layout Design using TCG-S.pdf:PDF
+  \endverb
+  \field{year}{2005}
+\endentry
+
+\entry{Lin2010}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Cheng-Wu}{C.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Jai-Ming}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Chun-Po}{C.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Soon-Jyh}{S.-J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \keyw{Analog placement, symmetry, boundary constraint an input or output port
+  is placed inside the island}
+  \strng{namehash}{LCW+1}
+  \strng{fullhash}{LCWLJMHCPCSJ1}
+  \field{labelalpha}{Lin+10}
+  \field{sortinit}{L}
+  \field{booktitle}{Proceedings of the 47th Design Automation Conference}
+  \field{pages}{292\bibrangedash 297}
+  \field{title}{Performance-driven analog placement considering boundary
+  constraint}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5523405
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Performance-driven Analog Plac
+  \verb ement Considering Boundary Constraint.pdf:PDF
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{Lin11}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Mark Po-Hung}{M.~P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Hongbo}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wong}{W.}%
+     {Martin~DF}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \keyw{analog circuits common-centroid constraints device matching power
+  devices thermal effect thermal gradient thermal profile thermal-driven analog
+  placement thermally-sensitive devices}
+  \strng{namehash}{LMPH+1}
+  \strng{fullhash}{LMPHZHWMDCYW1}
+  \field{labelalpha}{Lin+11}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1109/TCAD.2010.2097308
+  \endverb
+  \field{number}{3}
+  \field{pages}{325\bibrangedash 336}
+  \field{title}{Thermal-Driven Analog Placement Considering Device Matching}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5715604
+  \endverb
+  \field{volume}{30}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Thermal-Driven Analog Placemen
+  \verb t Considering Device Matching.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{2011}
+\endentry
+
+\entry{lina2012}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Lin}{L.}%
+     {Mark Po-Hung}{M.~P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chiang}{C.}%
+     {Bo-Hao}{B.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Jen-Chieh}{J.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Yu-Chang}{Y.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Rong-Guey}{R.-G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Shuenn-Yuh}{S.-Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LMPH+1}
+  \strng{fullhash}{LMPHCBHCJCWYCCRGLSY1}
+  \field{labelalpha}{Lin+12}
+  \field{sortinit}{L}
+  \field{booktitle}{Synthesis, Modeling, Analysis and Simulation Methods and
+  Applications to Circuit Design (SMACD), 2012 International Conference on}
+  \field{pages}{57\bibrangedash 60}
+  \field{title}{Augmenting slicing trees for analog placement}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Augmenting Slicing Trees for A
+  \verb nalog Placement.pdf:PDF
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{Maruvada2005}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Maruvada}{M.}%
+     {Sarat~C}{S.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berkman}{B.}%
+     {Ariel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamoorthy}{K.}%
+     {Karthik}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasa}{B.}%
+     {Florin}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \keyw{analog topological placement deterministic skip lists
+  symmetric-feasible binary tree representations symmetry constraints}
+  \strng{namehash}{MSC+1}
+  \strng{fullhash}{MSCBAKKBF1}
+  \field{labelalpha}{Mar+05}
+  \field{sortinit}{M}
+  \field{booktitle}{ASIC, 2005. ASICON 2005. 6th International Conference On}
+  \verb{doi}
+  \verb 10.1109/ICASIC.2005.1611437
+  \endverb
+  \field{pages}{834\bibrangedash 837}
+  \field{title}{Deterministic skip lists in analog topological placement}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1611437&
+  \verb url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D
+  \verb 1611437
+  \endverb
+  \field{volume}{2}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Deterministic Skip Lists in An
+  \verb alog Topological Placement.pdf:PDF
+  \endverb
+  \field{year}{2005}
+\endentry
+
+\entry{Murata1996}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Murata}{M.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fujiyoshi}{F.}%
+     {Kunihiro}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakatake}{N.}%
+     {Shigetoshi}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kajitani}{K.}%
+     {Yoji}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MH+1}
+  \strng{fullhash}{MHFKNSKY1}
+  \field{labelalpha}{Mur+96}
+  \field{sortinit}{M}
+  \field{number}{12}
+  \field{pages}{1518\bibrangedash 1524}
+  \field{title}{VLSI module placement based on rectangle-packing by the
+  sequence-pair}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=552084&url=http%3
+  \verb A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D552084
+  \endverb
+  \field{volume}{15}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/VLSI Module Placement Based o
+  \verb n Rectangle-Packing by the Sequence-Pair.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{1996}
+\endentry
+
+\entry{FlorinBalasa2000}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Pang}{P.}%
+     {Yingxin}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasa}{B.}%
+     {Florin}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lampaert}{L.}%
+     {Koen}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Chung-Kuan}{C.-K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \keyw{design experimentation measurement performance placement and routing
+  theory trees}
+  \strng{namehash}{PY+1}
+  \strng{fullhash}{PYBFLKCCK1}
+  \field{labelalpha}{Pan+00}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the 37th Annual Design Automation
+  Conference}
+  \verb{doi}
+  \verb 10.1145/337292.337545
+  \endverb
+  \field{pages}{464\bibrangedash 467}
+  \field{title}{Block placement with symmetry constraints based on the O-tree
+  non-slicing representation}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?doid=337292.337545
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Block Placement with Symmetry
+  \verb Constraints based on the O-tree Non-Slicing Representation.pdf:PDF
+  \endverb
+  \field{year}{2000}
+\endentry
+
+\entry{Prieto1997}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Prieto}{P.}%
+     {Juan~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rueda}{R.}%
+     {Adoracion}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quintana}{Q.}%
+     {Jose~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huertas}{H.}%
+     {Jose~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{PJA+1}
+  \strng{fullhash}{PJARAQJMHJL1}
+  \field{labelalpha}{Pri+97}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the 1997 European conference on Design and
+  Test}
+  \field{pages}{389}
+  \field{title}{A Performance-Driven Placement Algorithm with Simultaneous
+  Place\&Route Optimization and for Analog and IC’s}
+  \list{institution}{1}{%
+    {European Design \& Test Conference, (ED\&TC’97),}%
+  }
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/A Performance-Driven Placement
+  \verb  Algorithm with Simultaneous Place&Route Optimization for Analog IC’s
+  \verb .pdf:PDF
+  \endverb
+  \field{year}{1997}
+\endentry
+
+\entry{Nakatake2010}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Shigetoshi}{S.}%
+     {Nakatake}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masahiro}{M.}%
+     {Kawakita}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takao}{T.}%
+     {Ito}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Masahiro}{M.}%
+     {Kojima}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Michiko}{M.}%
+     {Kojima}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kenji}{K.}%
+     {Izumi}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tadayuki}{T.}%
+     {Habasaki}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{SN+1}
+  \strng{fullhash}{SNMKTIMKMKKITH1}
+  \field{labelalpha}{Shi+10}
+  \field{sortinit}{S}
+  \field{booktitle}{ASPDAC '10 Proceedings of the 2010 Asia and South Pacific
+  Design Automation Conference}
+  \field{pages}{305\bibrangedash 311}
+  \field{title}{Regularity-Oriented Analog Placement with Diffusion Sharing and
+  Well Island Generation}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=1899787
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Regularity-oriented analog pl
+  \verb acement with diffusion sharing and well island generation.pdf:PDF
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{Strasser08}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Strasser}{S.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eick}{E.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gr{\"a}b}{G.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlichtmann}{S.}%
+     {Ulf}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Johannes}{J.}%
+     {Frank~M}{F.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE Press}%
+  }
+  \keyw{B*-trees Pareto front of placement analog placement algorithm Plantage
+  deterministic analog circuit placement enhanced shape function hierarchically
+  bounded enumeration}
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMEMGHSUJFM1}
+  \field{labelalpha}{Str+08}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 2008 IEEE/ACM International Conference
+  on Computer-Aided Design}
+  \verb{doi}
+  \verb 10.1109/ICCAD.2008.4681591
+  \endverb
+  \field{pages}{306\bibrangedash 313}
+  \field{title}{Deterministic analog circuit placement using hierarchically
+  bounded enumeration and enhanced shape functions}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4681591
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Deterministic analog circuit p
+  \verb lacement using hierarchically bounded enumeration and enhanced shape fu
+  \verb nctions.pdf:PDF
+  \endverb
+  \field{year}{2008}
+\endentry
+
+\entry{Tsao2011}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Tsao}{T.}%
+     {Hui-Fang}{H.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chou}{C.}%
+     {Pang-Yen}{P.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Shih-Lun}{S.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yao-Wen}{Y.-W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Mark Po-Hung}{M.~P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Duan-Ping}{D.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Dick}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{THF+1}
+  \strng{fullhash}{THFCPYHSLCYWLMPHCDPLD1}
+  \field{labelalpha}{Tsa+11}
+  \field{sortinit}{T}
+  \field{booktitle}{Computer-Aided Design (ICCAD), 2011 IEEE/ACM International
+  Conference on}
+  \verb{doi}
+  \verb 10.1109/ICCAD.2011.6105377
+  \endverb
+  \field{pages}{507\bibrangedash 511}
+  \field{title}{A corner stitching compliant B*-tree representation and its
+  applications to analog placement}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6105377&url=http%
+  \verb 3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6105377
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/A Corner Stitching Compliant B
+  \verb *-tree Representation and Its Applications to Analog Placement.pdf:PDF
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{Cheong2006}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tam}{T.}%
+     {Yiu-Cheong}{Y.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {Evangeline~FY}{E.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chu}{C.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{analog circuits analog placement candidate floorplan solution
+  constraints handling device matching}
+  \strng{namehash}{TYCYEFCC1}
+  \strng{fullhash}{TYCYEFCC1}
+  \field{labelalpha}{TYC06}
+  \field{sortinit}{T}
+  \field{booktitle}{Computer-Aided Design, 2006. ICCAD '06. IEEE/ACM
+  International Conference on}
+  \verb{doi}
+  \verb 10.1109/ICCAD.2006.320057
+  \endverb
+  \field{pages}{349\bibrangedash 354}
+  \field{title}{Analog Placement with Symmetry and Other Placement Constraints}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4110197&
+  \verb url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D
+  \verb 4110197
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Analog placement with symmetry
+  \verb  and other placement constraints.pdf:PDF
+  \endverb
+  \field{year}{2006}
+\endentry
+
+\entry{Wong1986}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wong}{W.}%
+     {D.~F.}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {C.~L.}{C.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{WDFLCL1}
+  \strng{fullhash}{WDFLCL1}
+  \field{labelalpha}{WL86}
+  \field{sortinit}{W}
+  \field{booktitle}{DAC '86 Proceedings of the 23rd ACM/IEEE Design Automation
+  Conference}
+  \field{pages}{101\bibrangedash 107}
+  \field{title}{A New Algorithm for Floorplan Design}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=318030
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/A New Algorithm for Floorplan
+  \verb  Design.pdf:PDF
+  \endverb
+  \field{year}{1986}
+\endentry
+
+\entry{Wu2012}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Wu}{W.}%
+     {Po-Hsun}{P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Mark Po-Hung}{M.~P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yang-Ru}{Y.-R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chou}{C.}%
+     {Bing-Shiun}{B.-S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Tung-Chieh}{T.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ho}{H.}%
+     {Tsung-Yi}{T.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Bin-Da}{B.-D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \keyw{critical current path monotonic current path constraint
+  performance-driven analog placement algorithm post-layout simulation
+  routing-induced parasitics signal paths wirelength}
+  \strng{namehash}{WPH+1}
+  \strng{fullhash}{WPHLMPHCYRCBSCTCHTYLBD1}
+  \field{labelalpha}{Wu+12}
+  \field{sortinit}{W}
+  \field{booktitle}{Computer-Aided Design (ICCAD), 2012 IEEE/ACM International
+  Conference on}
+  \field{pages}{613\bibrangedash 619}
+  \field{title}{Performance-driven analog placement considering monotonic
+  current paths}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6386735&
+  \verb queryText%3DPerformance-driven+Analog+Placement+Considering+%E2%88%97+M
+  \verb onotonic+Current+Paths
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Performance-driven Analog Plac
+  \verb ement Considering Monotonic Current Paths.pdf:PDF
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{Wu2014}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Wu}{W.}%
+     {Po-Hsun}{P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Mark Po-Hung}{M.~P.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Tung-Chieh}{T.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yeh}{Y.}%
+     {Ching-Feng}{C.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ho}{H.}%
+     {Tsung-Yi}{T.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Bin-Da}{B.-D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institute of Electrical \& Electronics Engineers (IEEE)}%
+  }
+  \keyw{analog IC layout analog placement algorithms monotonic current paths
+  routing-induced parasitics signal paths slicing trees symmetry islands}
+  \strng{namehash}{WPH+1}
+  \strng{fullhash}{WPHLMPHCTCYCFHTYLBD1}
+  \field{labelalpha}{Wu+14}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1109/tcad.2014.2305831
+  \endverb
+  \field{issn}{1937-4151}
+  \field{number}{6}
+  \field{pages}{879–892}
+  \field{title}{Exploring Feasibilities of Symmetry Islands and Monotonic
+  Current Paths in Slicing Trees for Analog Placement}
+  \verb{url}
+  \verb http://dx.doi.org/10.1109/TCAD.2014.2305831
+  \endverb
+  \field{volume}{33}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Exploring Feasibilities of Sym
+  \verb metry Island and Monotonic Current Paths in Slicing Trees for Analog Pl
+  \verb acement.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Xiao10}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Xiao}{X.}%
+     {Linfu}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {Evangeline~FY}{E.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Xiaoyong}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pun}{P.}%
+     {Kong-Pang}{K.-P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{analog circuit designs analog circuit layout common centroid constraint
+  device clustering device merging layout-schematic verification practical
+  placement symmetric routing symmetry constraint}
+  \strng{namehash}{XL+1}
+  \strng{fullhash}{XLYEFHXPKP1}
+  \field{labelalpha}{Xia+10}
+  \field{sortinit}{X}
+  \field{booktitle}{Computer-Aided Design (ICCAD), 2010 IEEE/ACM International
+  Conference on}
+  \verb{doi}
+  \verb 10.1109/ICCAD.2010.5654239
+  \endverb
+  \field{pages}{675 \bibrangedash  679}
+  \field{title}{Practical placement and routing techniques for analog circuit
+  designs}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/abstractKeywords.jsp?arnumber=5654239
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Practical placement and routin
+  \verb g techniques for analog circuit designs.pdf:PDF
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{LinfuXiao2009}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Xiao}{X.}%
+     {Linfu}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {Evangeline~FY}{E.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \keyw{1D symmetry constraints analog circuit placement common centroid
+  sequence pair representation symmetric placement}
+  \strng{namehash}{XLYEF1}
+  \strng{fullhash}{XLYEF1}
+  \field{labelalpha}{XY09}
+  \field{sortinit}{X}
+  \field{booktitle}{Design Automation Conference, 2009. ASP-DAC 2009. Asia and
+  South Pacific}
+  \verb{doi}
+  \verb 10.1109/ASPDAC.2009.4796506
+  \endverb
+  \field{pages}{353\bibrangedash 360}
+  \field{title}{Analog placement with common centroid and 1-D symmetry
+  constraints}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4796506&
+  \verb url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D
+  \verb 4796506
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Analog Placement with Common C
+  \verb entroid and 1-D Symmetry Constraints.pdf:PDF
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{youssef2012}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Youssef}{Y.}%
+     {St{\'e}phanie}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YS1}
+  \strng{fullhash}{YS1}
+  \field{labelalpha}{You12}
+  \field{sortinit}{Y}
+  \field{title}{Aide au concepteur pour la g{\'e}n{\'e}ration de masques
+  analogiques, r{\'e}utilisables et optimis{\'e}s, en technologie CMOS
+  nanom{\'e}trique}
+  \list{institution}{1}{%
+    {Universit{\'e} Pierre et Marie Curie-Paris 6}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2012}
+\endentry
+
+\entry{Young1998}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Young}{Y.}%
+     {F.Y.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wong}{W.}%
+     {D.F.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YFWD1}
+  \strng{fullhash}{YFWD1}
+  \field{labelalpha}{YW98}
+  \field{sortinit}{Y}
+  \field{booktitle}{Computer-Aided Design, 1998. ICCAD 98. Digest of Technical
+  Papers. 1998 IEEE/ACM International Conference on}
+  \verb{doi}
+  \verb 10.1109/ICCAD.1998.144275
+  \endverb
+  \field{pages}{252\bibrangedash 258}
+  \field{title}{Slicing floorplans with pre-placed modules}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=742881&u
+  \verb rl=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7
+  \verb 42881
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Slicing Floorplans with pre-p
+  \verb laced modules.pdf:PDF
+  \endverb
+  \field{year}{1998}
+\endentry
+
+\entry{Young2000}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Young}{Y.}%
+     {Fung~Yu}{F.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wong}{W.}%
+     {DF}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {Hannah~Honghua}{H.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{YFYWDYHH1}
+  \strng{fullhash}{YFYWDYHH1}
+  \field{labelalpha}{YWY00}
+  \field{sortinit}{Y}
+  \field{number}{2}
+  \field{pages}{272\bibrangedash 278}
+  \field{title}{Slicing Floorplans with Range Constraint}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=828556
+  \endverb
+  \field{volume}{19}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Slicing Floorplans with range
+  \verb  constraints.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{2000}
+\endentry
+
+\entry{Young1999}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Young}{Y.}%
+     {Fung~Yu}{F.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wong}{W.}%
+     {DF}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yang}{Y.}%
+     {Hannah~Honghua}{H.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{YFYWDYHH1}
+  \strng{fullhash}{YFYWDYHH1}
+  \field{labelalpha}{YWY99}
+  \field{sortinit}{Y}
+  \verb{doi}
+  \verb 10.1109/43.784129
+  \endverb
+  \field{number}{9}
+  \field{pages}{1385\bibrangedash 1389}
+  \field{title}{Slicing Floorplans and with Boundary and Constraints}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=784129&u
+  \verb rl=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7
+  \verb 84129
+  \endverb
+  \field{volume}{18}
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Lien vers Externes/Slicing Floorplans with Bound
+  \verb ary Constraints.pdf:PDF
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{1999}
+\endentry
+
+\entry{Zhang2008}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Lihong}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shi}{S.}%
+     {C-J~Richard}{C.-J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jiang}{J.}%
+     {Yingtao}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \keyw{analog layout design symmetry-aware placement transitive closure
+  graphs}
+  \strng{namehash}{ZLSCJRJY1}
+  \strng{fullhash}{ZLSCJRJY1}
+  \field{labelalpha}{ZSJ08}
+  \field{sortinit}{Z}
+  \field{booktitle}{Design Automation Conference, 2008. ASPDAC 2008. Asia and
+  South Pacific}
+  \verb{doi}
+  \verb 10.1109/ASPDAC.2008.4483936
+  \endverb
+  \field{pages}{180\bibrangedash 185}
+  \field{title}{Symmetry-aware placement with transitive closure graphs for
+  analog layout design}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4483936&navi
+  \verb gation=1
+  \endverb
+  \verb{file}
+  \verb :users/cao/lao/Desktop/Articles/Externes/Symmetry-aware placement with
+  \verb transitive closure graphs for analog layout design.pdf:PDF
+  \endverb
+  \field{year}{2008}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

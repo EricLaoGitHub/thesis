@@ -1,0 +1,17 @@
+\chapter{State of the Art}
+Analog layout automation tools follow different approaches. Procedural generation tools are about codifying the entire circuit layout using parametric representation by the designer through a procedural language or graphical user interface. Template-based tools incorporate designer knowledge into the optimization task. This approach finds its applications restricted to small circuits or to more complex circuits with the goal of achieving the first cut design. Optimization-based tools use iterative procedure where design variables are updated at each iteration until they achieve an equilibrium point. Overall successful layout generation tools are often optimization-based.
+\newline 
+\newline 
+\indent cite{20} reviews characteristics that can be taken into consideration to evalutate automation tools:
+\begin{itemize}
+\item \textit{Accuracy and robustness}: Measure of the tool's performance prediction compared to real performance 
+and capacity of the tool to build and test circuits tolerant to
+manufacturing faults and operating point variations.
+\item \textit{Automation level}: Time spent to design a circuit with the tool. We can consider the running
+time (time spent by the tool to provide a solution) and the setup time
+(time spent by the designer to adequate the problem to the tool).
+\item \textit{Scope of the tool}: It can be described as a group of analog design problems, which can be
+solved by this tool. A tool which aims at solving a wide range of design
+problems will be successful in the long run.
+\item \textit{Design facilities}: Multi-objective optimization, interactive design, bookkeeping facilities.
+\end{itemize}

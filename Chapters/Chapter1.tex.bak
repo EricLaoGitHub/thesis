@@ -1,0 +1,86 @@
+\chapter{Placement}
+\label{chap:Placement}
+
+\section{Introduction}
+\label{sec:Placement-Introduction}
+Les systèmes-sur-puce modernes contiennent tant des circuits numériques que des circuits analogiques. La conception de circuits numériques a été particulièrement automatisée par des outils de conception assistée par ordinateur tandis que la conception de circuits analogiques est restée manuelle. Avec l'évolution des nouvelles technologies nanométriques, cela implique un travail manuel long et sujet à l'erreur humaine. \newline 
+
+\indent Dans le cadre des circuits analogiques, les parasites du dessin des masques et les contraintes de procédés de fabrication augmentent drastiquement la complexité de la tâche quant au placement des modules du circuit. Il devient essentiel d'introduire des outils de placement dédiés aux circuits analogiques dans le but d'accélérer aussi bien le cycle de conception que l'effort de conception. \newline 
+
+\indent La phase de placement pour les circuits mixtes et analogiques a une influence importante sur les performance du circuit. La relation de placement entre l'ensemble des modules, et plus particulièrement celle entre les modules appariés, est importante afin de préserver au plus possible l'environnement adéquate de fonctionnement des modules en tenant compte des parasites engendrés par le dessin des masques. \newline
+
+\indent Dans ce chapitre, nous discuterons de l'étude du problème du placement des circuits mixtes et analogiques. \newline
+
+\indent Dans la section \ref{sec:Placement-SoA-topologie}, nous énumérons les principales représentations topologiques du plan de masse de l'état de l'art. Ces représentations utilisent des graphe traduisant des relations de placement entre l'ensemble des modules d'un circuit. Leur spécificité avec leurs avantages et inconvénients et les contraintes qu'elles sont capables de prendre en compte dans le choix d'un placement optimal seront explicités. \newline 
+
+\indent Dans la section \ref{sec:Placement-SoA-optimization}, nous exposerons la phase d'optimisation que la majorité de l'état de l'art utilise dans le cadre de la recherche d'une solution de placement optimale. Les algorithmes de recuit simulé ont souvent opté pour leur capacité à produire de bons résultats en temps suffisamment court. Ces algorithmes sont également relativement simples à implémenter et peuvent être facilement enrichis pour des conditions supplémentaires. \newline
+
+\indent Dans la section \ref{sec:Placement-Implémentation}, nous présenterons notre approche du problème du placement des circuits mixtes et analogiques. Notre représentation topologique ainsi que notre méthodologie d'optimisation y sera détaillées. Cette section contiendra une partie de notre structure de données utilisée tout au long de la génération du placement routage. \newline
+
+\indent Dans la section \ref{sec:Placement-Exemple}, les détails de la méthodologie de placement seront illustrés par un exemple contenant des contraintes de placement répandues. Les interventions du concepteur seront énumérés avec clarté dans le but de mettre en avant son rôle dans le choix de la solution de placement.
+
+\section{\'Etat de l'art des algorithmes de placement}
+\label{sec:Placement-SoA}
+
+\indent Le problème de placement abordé par les outils de CAO dédiés aux dessins des masques numériques et analogiques consistent à explorer un grand espace de solutions de configurations de placement faisables et non faisables en utilisant une représentation du plan de masse couplée à une optimisation stochastique telle que l'algorithme de recuit simulé. A la différence des circuits numériques, les circuits analogiques doivent prendre en considération des contraintes de placement supplémentaires liées aux parasites du dessin des masques. L'état de l'art des approches de placement pour circuits mixtes et analogiques sera abordé dans les sections suivantes. 
+\subsection{Les représentations topologiques de plan de masse}
+\label{sec:Placement-SoA-topologie}
+
+Afin de pouvoir générer un placement légal respectant plusieurs contraintes de placement analogiques, la majorité des études récentes emploie une représentation sous forme de graphe. On distigune deux catégories de représentations: les représentations absolues et les représentations topologiques. Les représentations absolues \cite{Jepsen83} sont principalement dans les anciennes méthodes de placement et consiste à associer à chacun des modules du circuit une coordonnée par rapport à un point de référence. Cette représentation permet la superposition illégale de modules lors de la phase d'optimisation dû au fait qu'il n'existe pas de relation de placement entre les modules. Cette approche doit alors être en mesure explorer un très grand espace de solutions comprenant tant des placements faisables que non faisables. Cela se traduit par des temps d'exécution long causés par le grand nombre de mouvements nécessaires pour obtenir un dessin des masques satisfaisant. Il est également possible qu'en plus du long temps d'exécution, il ne garantie pas toujours de solutions faisables. L'ajustement de la fonction de coût pour éviter les recouvrements de modules peut requérir un effort conséquent. \newline
+
+En opposition aux représentations absolues, les représentations topologiques ne font pas face à des problèmes de recouvrements, elles consistent à définir des relations de positions entre les modules d'un circuit. Ces représentations sont largement utilisés pour des raisons d'efficacité et de flexibilités à pouvoir satisfaire des contraintes pour un moindre coût en termes de nombre de mouvements comparées aux représentations absolues. On présentera dans les sous-sections suivantes les représentations topologiques les plus utilisées de l'état de l'art. 
+\subsubsection{Les slicing models}
+Les {\it slicing models} \cite{Wong1986} font parties des premières représentations topologiques utilisées. Ces {\it slicing models} sont représentés à l'aide d'un graphe appelé {\it slicing tree}. Un {\it slicing tree} est un arbre dans lequel chaque noeud interne peut être obtenu par découpes récursives du circuit (Fig. \ref{fig:1}). A partir de la région totale du circuit représentant la racine de l'arbre, le circuit sera découpé de manière hiérarchique, alternativement de manière horizontal et vertical, jusqu'à atteindre les feuilles de l'arbre représentant les modules du circuit ou bien des espaces de routage. L'ensemble des rectangles terminaux dû aux découpes sera toujours représenté par une feuille. \newline
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/1.pdf}
+\caption{Exemple de placement et sa représentation en {\it slicing tree} ou "H" définit une coupe horizontal et "V" une coupe vertical.} 
+\label{fig:1}
+\end{center}
+\end{figure}
+\cite{Abthoff1996} concentre son optimisation sur la surface totale du circuit ainsi que la longueur total des {\it nets} dont l'amélioration est 5 fois plus courte comparé à la non prise en considération. L'optimisation prend en compte les contraintes de proximité, de modules pré-placés et de symmetries. \cite{Prieto1997} considère les parasites d'interconnection dans la phase d'optimisation avec une prise en compte simultanée du placement et routage. Ils sont en mesure de maintenir des symmetries de groupes de modules. \cite{Young1998} étend l'approche de \cite{Wong1986} afin de pouvoir considérer des modules pré-placés, de contraintes de bordure \cite{Young1999} et de proximité \cite{Young2000}. \cite{lina2012} améliore la formulation des {\it slicing trees} en introduisant des conditions de symmétries pour des groupes de modules. \cite{Wu2012} introduit la prise en compte des contraintes de sens du courant dans les structures en {\it slicing tree} en plus des symétries. \newline
+
+Puisque tous les circuits n'ont pas une structure en tranche, le desavantage de cette topologie est que la densité de la solution de placement peut être dégradé ce qui peut être notable lorsque les modules d'un circuit ont des rapports hauteur/largeur très hétérogènes. De plus, la structure des {\it slicing trees} ne permet pas de représenter toutes les placement possibles (Fig. \ref{fig:2}). Suite à ces limitations, des représentations avec des structures {\it non-slicing} se sont succédé. Les {\it sequence pair}, les arbres B* ({\it B*-tree}), les graphes à fermeture transitive ({\it Transitive Closure Graph - TCG}), les arbres ordonnées ({\it Ordered-Tree - O-tree}) et les {\it Corner Block Lists (CBL)} seront présentés dans les sous-sections suivantes.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=\textwidth]{Figures/2.pdf}
+\caption{Exemple d'un placement représentable par un {\it slicing tree} (a) et d'un placement non représentable (b)} 
+\label{fig:2}
+\end{center}
+\end{figure}
+\subsubsection{Les Sequence Pair}
+Les {\it sequence pair} est utilisé dans le context des placements de circuits analogiques pour la première fois par \cite{Balasa2000}. Une {\it sequence pair} donnée pour ensemble de modules est une paire de séquences contenant l'ensemble des modules. Par example, $(abc, cba)$ est une sequence-pair pour l'ensemble de module \{$a,b,c$\}. Pour un placement donné, la sequence pair correspondante est obtenue par la construction des échelons positifs et négatifs de chacun des modules (Fig. \ref{fig:3}). L'échelon positif (négatif) d'un module contient 3 parties: l'échelon haut-droit (gauche-haut), l'échelon bas-gauche (droite-bas) et la ligne diagonale effectuant la connexion. L'échelon  haut-droite (bas-gauche, gauche-haut, droite-bas respectivement) d'un module est $A$ est dessiné en suivant les règles suivantes:
+
+\begin{enumerate}
+\item On part de coin supérieur droit (inférieur gauche, supérieur gauche et inférieur droit respectivement) du module $A$.
+\item On change la direction alternativement haut (bas, gauche et droite respectivement) et droit (gauche, haut et bas respectivement) jusqu'à atteindre le coin supérieur droit (inférieur gauche, supérieur gauche et inférieur droit respectivement) du placement sans croiser:
+\begin{itemize}
+\item Les bordures des autres modules
+\item Les lignes précédemment tracées
+\end{itemize}
+\end{enumerate}
+ALLOOOOOOOOOO
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{Figures/3.pdf}
+\caption{(a) \'Echelons positifs résultant et $\Gamma_+=ecadfb$. (b) \'Echelons négatifs résultant et $\Gamma_-=fcbead$.} 
+\label{fig:3}
+\end{center}
+\end{figure}
+
+\begin{itemize}
+\item B*-tree/HB-tree
+\item TCG
+\item O-tree
+\item CBL?
+\item Complexity Pertubation time vs Packing time
+\item Overview
+\end{itemize}
+
+\subsection{Les méthodes d'optimisation de placement}
+\label{sec:Placement-SoA-optimization}
+\section{Implémentation}
+\label{sec:Placement-Implémentation}
+\section{Exemples}
+\label{sec:Placement-Exemple}

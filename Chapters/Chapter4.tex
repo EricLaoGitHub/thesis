@@ -1,0 +1,20 @@
+\chapter{Academic Tools}
+Some academic tools related to analog layout generation will be reviewed in this following part. 
+\newline 
+\newline 
+\indent Examples of procedural generation tools:
+\begin{itemize}
+\item ALSYN cite{21} can synthesize layout from netlist-level description for a range of analog integrated circuits. Designers can incorporate their own reusable knowledge into the synthesis process to explore design space. It also provide a flexible module generator environment and easy technology database access with variable shapes.
+\item cite{22} describes the automatic generation and reusability of physical layouts of analog and mixed-signal blocks based on high-functionality parameterized cells (pCells) that are fully independent of technologies.
+\end{itemize}
+
+Examples of template-based tools:
+\begin{itemize}
+\item LAYGEN cite{24} is template based tool that includes placement and routing constraints defined by the designer following a traditionnal analog flow that can generate automaticaly analog integrated circuit layouts.
+\item BAG cite{23} is a design frame for AMS circuits capable of integrating all steps of the design flow, from architectural-specification definition to correct layout implementation, into procedural analog generators.
+\end{itemize}
+Examples of optimization-based tools:
+\begin{itemize}
+\item ANAGRAM cite{25} is a full-custom layout of analog cells which is in the style of a macro-cell place and route problem. It can handle layout symmetries, dynamic merging and abutment of individual devices, and flexible generation of wells and bulk contacts
+\item ILAC cite{26} is process-independent tool that automatically generates geometrical layout for analog CMOS cells from a circuit description. It handles typical analog layout constraints such as device matching, symmetry and distance and coupling constraints but also supports user-specified constraints.
+\end{itemize}
