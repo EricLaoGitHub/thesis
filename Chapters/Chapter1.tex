@@ -223,7 +223,7 @@ Avec l'objectif de représenter l'organisation en bande, nous avons opté pour l
 \begin{figure}[h]
 \begin{center}
 \includegraphics[height=0.10\textheight]{Figures/9.pdf}
-\caption{Difficultés à écarter un placement non slicing-tree}
+\caption{Evolution des découpes d'un slicing tree}
 \label{fig:9}
 \end{center}
 \end{figure}\newline
@@ -244,9 +244,9 @@ On décompose les éléments d'un \textit{slicing trees} de la façon suivante:
 \item \textbf{les noeuds hiérarchiques}
 \end{itemize}
 
-On définit un device comme étant un bloc numérique ou analogique. Dans le cadre d'un bloc analogique, il peut s'agir d'une cellule numérique contenant une ou plusieurs cellules standards. Pour un bloc analogique, un device peut représenter un ensemble de transistors permettant de réaliser une fonction analogique de base. Ces devices peuvent être un simple \textbf{transistor}, une \textbf{paire différentielle}, un \textbf{miroir de courant}, un \textbf{montage en cascode} ou un \textbf{cross-coupled pair}. La raison pour laquelle ces blocs ont été définie est que le comportement électrique de ces blocs analogiques nécessite un dessins des masques dédié comprenant des contraintes géométriques fortes liées au placement et au routage. Ils peuvent également être générés selon des styles dessins des masques tels quepar centrage géométrique ou de manière interdigité. Ces blocs analogiques sont générés de manière correcte par construction à partir des règles de dessins de la technologie donnée. De plus, chacun des devices est paramétrable et contient les estimations des parasites liés à son dessin des masques. Pour plus de détails concernant notre librarie de devices analogiques, \cite{youssef2012} décrit entièrement le contenu de ces devices.
+On définit un device comme étant un bloc numérique ou analogique. Dans le cadre d'un bloc analogique, il peut s'agir d'une cellule numérique contenant une ou plusieurs cellules standards. Pour un bloc analogique, un device peut représenter un ensemble de transistors permettant de réaliser une fonction analogique de base. Ces devices peuvent être un simple \textbf{transistor}, une \textbf{paire différentielle}, un \textbf{miroir de courant}, un \textbf{montage en cascode} ou un \textbf{cross-coupled pair}. La raison pour laquelle ces blocs ont été définie est que le comportement électrique de ces blocs analogiques nécessite un dessins des masques dédié comprenant des contraintes géométriques fortes liées au placement et au routage. Ils peuvent également être générés selon des styles dessins des masques tels quepar centrage géométrique ou de manière interdigité. Ces blocs analogiques sont générés de manière correcte par construction à partir des règles de dessins de la technologie donnée. De plus, chacun des devices est paramétrable et contient les estimations des parasites liés à son dessin des masques. Pour plus de détails concernant notre librarie de devices analogiques, \cite{youssef2012} décrit entièrement le contenu de ces devices. \newline
 
-Dans le contexte du \textbf{slicing tree}, un device est défini par plusieurs attributs:
+\indent Dans le contexte du \textbf{slicing tree}, un device est défini par plusieurs attributs:
 \begin{itemize}
 \item \textbf{Une coordonnée x, y}: Elle représente la position du coin inférieur gauche du device au sien du plan considéré pour le placement des devices.
 \item \textbf{Une hauteur et une largeur}: Elle définit le rectangle englobant la surface occupée par le device.
@@ -258,7 +258,7 @@ Dans le contexte du \textbf{slicing tree}, un device est défini par plusieurs a
 \begin{center}
 \includegraphics[height=0.11\textheight]{Figures/12.pdf}
 \caption{Les paramètres réglables des devices, (a) Style de dessin des masques, (b) Variation du nombre de doigts et (c) Variation de la taille des connecteurs.}
-\label{fig:12}
+\label{fig:11}
 \end{center}
 \end{figure} 
 Notre approche de placement consiste à organiser les devices en bande et on cherche également à faire sorte que les devices d'une bande possèdent une hauteur le plus similaire possible. Afin d'obtenir cette configuration, il est nécessaire de considérer plusieurs aspect ratios pour chacun des devices en faisant varier le nombre des doigts des transistors des blocs analogiques tout en préservant leur fonctionalité électrique. Néanmoins, nous sommes conscient que cette action implique une variation de la capacité source/drain $C_{jSB}$ pouvant influencer les performances du circuits. \cite{Long2006} et \cite{Wu2014} détaille cette influence de la variation du nombre de doigts d'un transitor. Cependant, dans le cadre de notre approche, notre objectif consiste à effectuer plusieurs boucles itératives sur l'ensemble du design et ainsi resserrer les contraintes du circuit à chaque nouvelle itération afin de tendre vers une solution souhaitée. \newline
@@ -294,57 +294,129 @@ Les noeuds hierarchiques représentent les découpes hierarchiques verticales et
 \begin{center}
 \includegraphics[height=0.15\textheight]{Figures/14.pdf}
 \caption{Noeud hiérarchique vertical avec une organisation en bande}
-\label{fig:14}
+\label{fig:13}
 \end{center}
 \end{figure} 
 
-La figure \ref{fig:14} présente l'organisation d'un noeud hiérachique vertical. On y observe l'organisation d'une bande dans laquelle les devices $A$, $B$, $C$ et $D$ sont soumis à des contraintes d'alignement. La hauteur et la largeur d'un noeud hiérarchique vertical est déterminé par la formule suivante:
+La figure \ref{fig:13} présente l'organisation d'un noeud hiérachique vertical. On y observe l'organisation d'une bande dans laquelle les devices $A$, $B$, $C$ et $D$ sont soumis à des contraintes d'alignement. La hauteur et la largeur d'un noeud hiérarchique vertical est déterminé par la formule suivante:
 \begin{equation}
 \begin{aligned}
 Largeur_{BandeVerticale} &= \sum_{i=0}^{n} L_{NoeudFils_i} + \sum_{j=0}^{n+1} L_{EspaceDeRoutage_j} \\
 Hauteur_{BandeVerticale} &= Max\{H_{NoeudFils_0},H_{NoeudFils_1}, ... , H_{NoeudFils_n}\}
 \end{aligned}
 \end{equation}
-en considérant $n$ le nombre total de noeuds fils. Chaque espace noté "$R$" représente un espace de routage et sont dû soit à une découpe verticale soit à une différence de taille avec le noeud fils ayant la plus grande hauteur qui est "$B$" dans le cas ci-dessus. La taille d'un espace de routage dépend du nombre de fils de routage verticaux et de leur positinnement au sein de l'espace, d'avantage de détails seront donnés dans le chapitre sur le routage. Concernant les contraintes d'alignement à chacun des devices, "$A$" est aligné vers le bas de la bande, "$C$" est centré par rapport à la hauteur de la bande et "$D$" est aligné vers le haut de la bande. Les symétries au sein d'un noeud hierarchique se traduisent par la garantie que deux fils d'un noeud fils soient de la même taille et possède le même alignement. Sur la figure \ref{fig:14}, la boite englobante en pointillé représente l'espace du noeud hiéarchique considéré par les noeuds hiearchiques supérieurs.
+en considérant $n$ le nombre total de noeuds fils. Chaque espace noté "$R$" représente un espace de routage et sont dû soit à une découpe verticale soit à une différence de taille avec le noeud fils ayant la plus grande hauteur qui est "$B$" dans le cas ci-dessus. La taille d'un espace de routage dépend du nombre de fils de routage verticaux et de leur positinnement au sein de l'espace, d'avantage de détails seront donnés dans le chapitre sur le routage. Concernant les contraintes d'alignement à chacun des devices, "$A$" est aligné vers le bas de la bande, "$C$" est centré par rapport à la hauteur de la bande et "$D$" est aligné vers le haut de la bande. Les symétries au sein d'un noeud hierarchique se traduisent par la garantie que deux fils d'un noeud fils soient de la même taille et possède le même alignement. Sur la figure \ref{fig:13}, la boite englobante en pointillé représente l'espace du noeud hiéarchique considéré par les noeuds hiearchiques supérieurs.
 
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[height=0.11\textheight]{Figures/15.pdf}
-\caption{Propagation des dimensions du placement dans un \textbf{slicing tree}}
-\label{fig:11}
-\end{center}
-\end{figure} 
+%\begin{figure}[h]
+%\begin{center}
+%\includegraphics[height=0.11\textheight]{Figures/15.pdf}
+%\caption{Propagation des dimensions du placement dans un \textbf{slicing tree}}
+%\label{fig:11}
+%\end{center}
+%\end{figure} 
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[height=0.11\textheight]{Figures/11.pdf}
-\caption{Interface de programmation du placeur analogique et mixte}
-\label{fig:11}
-\end{center}
-\end{figure} 
+%\begin{figure}[h]
+%\begin{center}
+%\includegraphics[height=0.11\textheight]{Figures/11.pdf}
+%\caption{Interface de programmation du placeur analogique et mixte}
+%\label{fig:11}
+%\end{center}
+%\end{figure} 
 
-Je fais un test
-- API SlicingTree: Architecture logiciel ~1 page
-- SlicingNode: 
-DSlicingNode: NodeSets (number of fingers, dimensions), definition of what we call device? Layout style?
-RoutingNode : Width of the channel, variable length depending on vertical or horizontal nodes
-HSlicingNode et VSlicingNode: containing DSlicingNode, modificateur/accesseur (add, remove, find)
-get Width/Height
-slicing routing
-adjust border slicing routing
 
-Symmétries:
-- symmetries inside a same level of hierarchie
-- 2 blocks can be set to have the same dimensions
+%- API SlicingTree: Architecture logiciel ~1 page
+%- SlicingNode: 
+%DSlicingNode: NodeSets (number of fingers, dimensions), definition of what we call device? Layout style?
+%RoutingNode : Width of the channel, variable length depending on vertical or horizontal nodes
+%HSlicingNode et VSlicingNode: containing DSlicingNode, modificateur/accesseur (add, remove, find)
+%get Width/Height
+%slicing routing
+%adjust border slicing routing
+
+%Symmétries:
+%- symmetries inside a same level of hierarchie
+%- 2 blocks can be set to have the same dimensions
 
 \subsubsection{Algorithme de placement}
+En considérant $n$ noeuds pour un noeud hiérarchique vertical (fig. \ref{fig:12}) avec $n$ représentant le nombre de noeuds fils, sa hauteur et sa largeur sont calculés à partir de la formule suivante:
+\begin{subequations}
+\begin{align}
+Height &= max(Height_{Node_1}, Height_{Node_2}, \hdots, Height_{Node_n})\\
+Width  &= \sum_{k=1}^{n} Width_{Node_k} 
+\end{align}
+\end{subequations}
+Pour un noeud hiéarchique horizontal, on obtient sa hauteur et sa largeur avec la formule suivante:
+\begin{subequations}
+\begin{align}
+Height &= \sum_{k=1}^{n} Height_{Node_k} \\
+Width  &=  max(Width_{Node_1}, Width_{Node_2}, \hdots, Width_{Node_n})
+\end{align}
+\end{subequations}
 
-How
-- variation devices, layout styles
-- Margin tolerances: Imposer des contraintes afin de limiter le nombre de placement possible
-- Algorithme de calcul du nombre de placement possibles + Execution HVState ?
-- Placement + stored placement
+{\bf \noindent  Définition 2:} \\
+Chaque noeud $Node_X$ possède $m$ paires (hauteur, largeur) représentant les tailles que le noeud peut prendre à moins que le noeud ne soit prédéfini. Lorsqu'un noeud possède des dimensions prédifinies, il ne possède qu'une seule une paire unique (hauteur, largeur) définie par le concepteur:
+
+\begin{algorithm}
+\caption{Possible sizes}
+\eIf{$Node_X$ prédéfini:}{
+  $Node_X: [(Height_{\textit{preset}}, W_{\textit{preset}})]$
+}{
+  $Node_X: [(Height_1, Width_1), (Height_2, Width_2),\hdots ,(Height_m, Width_m)]$\\
+}
+\end{algorithm}
+
+L'algorithme évalue toutes les combinaisons possibles si elles peuvent être acceptées par un paramètre de tolérance pour la différence de taille maximum entre le noeud de plus petite taille et de plus grande taille. Chaque noeud sont initialisés avec leur première combinaison:
+
+\begin{algorithm}
+Combinaison initiale:\\
+\begin{equation}
+  HierarchicalNode (Height_1, Width_1) = 
+  \begin{pmatrix}
+    Node_1(Height_1, Width_1)  \\
+    Node_2(Height_1, Width_1)  \\
+    \vdots            \\
+    Node_n(Height_1, Width_1)  
+  \end{pmatrix}
+\end{equation}\\
+\end{algorithm}
+\vspace{-0.5cm}
+
+Une fois que cette combinaison de tailles est traitée, le $Node_1$ utilise sa combinaison de taille (hauteur, largeur) suivante jusqu'à que l'ensemble des combinaisons du $Node_1$ soit traité. Lorsque la dernière combinaison du $Node_1$ est atteinte, le $Node_2$ incrémente à sa combinaison suivante et $Node_1$ repasse à sa combinaison initiale et le processus se déroule de la même façon pour les noeuds suivants: L'algorithme principal est le suivante:
+
+\begin{algorithm}
+\caption{Main Placement Algorithm}
+{\bf Case:} Noeud Vertical \\
+\For{i = 1:Nombre de combinaisons}{\vspace{0.25cm}
+  Déterminer $(Height_{max_i}, Height_{min_i}, Width_{i})^{(1)}$\vspace{0.25cm}\\
+  \If{ $(Height_{max_i} - Height_{min_i}) <=$ \textit{Height tolerance}$^{(2)}$ } 
+  {Taille acceptée $(Height_{i}, Width_{i})$} 
+ 
+}\vspace{0.25cm}
+
+{\bf Case:} Noeud Horizontal \\
+Algorithme identique à l'exception de $(1)$ et $(2)$.\\
+$(1)$: Déterminer $(Width_{max_i}, Width_{min_i}, Height_{i})$\\
+$(2)$: $(Width_{max_i} - Width_{min_i}) <=$ \textit{Width tolerance}\vspace{0.25cm}
+\end{algorithm}
+\newpage
+Le nombre total de combinaisons évaluées est de: 
+\vspace{-0.25cm}
+\begin{equation}
+\textit{Number of sets} =  (m_{Node_1} * m_{Node_2} * \hdots * m_{Node_n})\\
+\end{equation}
+
+Le nombre de combinaisons à considérer augmente de manière rapide (factorielle) mais certaines considérations sont à prendre en compte. Au sein d'un \textbf{slicing tree}, il est commun d'avoir plusieurs noeuds hiérarchiques ce qui implique que certaines combinaisons seront filtrées si la condition $(2)$ de l'algorithme principale ne respectent pas les paramètres de différence tailles. De plus, un noeud hierarchique peut avoir à gérer à des contraintes de symétries parmis ses noeuds fils. Cela signifie que pour 2 noeuds symétriques, on ne considérera que $m$ combinaisons au lieu de $m^2$. 
+
+
+
+%How
+%- variation devices, layout styles
+%- Margin tolerances: Imposer des contraintes afin de limiter le nombre de placement possible
+%- Algorithme de calcul du nombre de placement possibles + Execution HVState ?
+%- Placement + stored placement
+%Software algorithm HVState ?
+
 
 \section{Exemples}
 \label{sec:Placement-Exemple}

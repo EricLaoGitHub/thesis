@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.18)  13 DEC 2017 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.18)  18 DEC 2017 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1857,12 +1857,6 @@ Package csquotes Info: ... found 'babel' package.
 
 LaTeX Warning: Label `fig:3' multiply defined.
 
-
-LaTeX Warning: Label `fig:12' multiply defined.
-
-
-LaTeX Warning: Label `fig:11' multiply defined.
-
 ) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
 (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux)
 (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux) (./Chapters/Chapter10.aux)
@@ -2281,7 +2275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[2] <Figures/1.pdf, id=430, 1119.18124pt x 360.34625pt>
+[2] <Figures/1.pdf, id=426, 1119.18124pt x 360.34625pt>
 File: Figures/1.pdf Graphic file (type pdf)
  <use Figures/1.pdf>
 Package pdftex.def Info: Figures/1.pdf used on input line 36.
@@ -2303,12 +2297,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--42
 
  []
 
-<Figures/2.pdf, id=440, 538.01pt x 132.495pt>
+<Figures/2.pdf, id=436, 538.01pt x 132.495pt>
 File: Figures/2.pdf Graphic file (type pdf)
  <use Figures/2.pdf>
 Package pdftex.def Info: Figures/2.pdf used on input line 46.
 (pdftex.def)             Requested size: 419.74461pt x 103.36876pt.
- [3 <./Figures/1.pdf>] <Figures/3.pdf, id=468, 223.45935pt x 93.72215pt>
+ [3 <./Figures/1.pdf>] <Figures/3.pdf, id=463, 223.45935pt x 93.72215pt>
 File: Figures/3.pdf Graphic file (type pdf)
  <use Figures/3.pdf>
 Package pdftex.def Info: Figures/3.pdf used on input line 66.
@@ -2317,7 +2311,7 @@ Package pdftex.def Info: Figures/3.pdf used on input line 66.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4 <./Figures/2.pdf>] <Figures/5.pdf, id=494, 242.24503pt x 138.18626pt>
+[4 <./Figures/2.pdf>] <Figures/5.pdf, id=490, 242.24503pt x 138.18626pt>
 File: Figures/5.pdf Graphic file (type pdf)
 
 <use Figures/5.pdf>
@@ -2332,7 +2326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
 pdfTeX warning: pdflatex (file ./Figures/5.pdf): PDF inclusion: multiple pdfs w
 ith page group included in a single page
->] <Figures/4a.pdf, id=528, 536.0025pt x 222.8325pt>
+>] <Figures/4a.pdf, id=524, 536.0025pt x 222.8325pt>
 File: Figures/4a.pdf Graphic file (type pdf)
  <use Figures/4a.pdf>
 Package pdftex.def Info: Figures/4a.pdf used on input line 89.
@@ -2352,7 +2346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<Figures/6.pdf, id=574, 249.94994pt x 72.44186pt>
+<Figures/6.pdf, id=570, 249.94994pt x 72.44186pt>
 File: Figures/6.pdf Graphic file (type pdf)
  <use Figures/6.pdf>
 Package pdftex.def Info: Figures/6.pdf used on input line 105.
@@ -2382,7 +2376,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-[10] <Figures/7-1.png, id=679, 992.70876pt x 559.08875pt>
+[10] <Figures/7-1.png, id=675, 992.70876pt x 559.08875pt>
 File: Figures/7-1.png Graphic file (type png)
 
 <use Figures/7-1.png>
@@ -2392,7 +2386,7 @@ Package pdftex.def Info: Figures/7-1.png used on input line 175.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] <Figures/8.pdf, id=687, 466.74374pt x 104.39pt>
+[11] <Figures/8.pdf, id=683, 466.74374pt x 104.39pt>
 File: Figures/8.pdf Graphic file (type pdf)
  <use Figures/8.pdf>
 Package pdftex.def Info: Figures/8.pdf used on input line 204.
@@ -2406,22 +2400,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
-[13 <./Figures/8.pdf>] <Figures/9.pdf, id=710, 466.74374pt x 104.39pt>
+[13 <./Figures/8.pdf>] <Figures/9.pdf, id=706, 466.74374pt x 104.39pt>
 File: Figures/9.pdf Graphic file (type pdf)
 
 <use Figures/9.pdf>
 Package pdftex.def Info: Figures/9.pdf used on input line 225.
 (pdftex.def)             Requested size: 308.16577pt x 68.91951pt.
- <Figures/10.pdf, id=713, 466.74374pt x 104.39pt>
+ <Figures/10.pdf, id=709, 466.74374pt x 104.39pt>
 File: Figures/10.pdf Graphic file (type pdf)
 
 <use Figures/10.pdf>
 Package pdftex.def Info: Figures/10.pdf used on input line 233.
 (pdftex.def)             Requested size: 308.16577pt x 68.91951pt.
- [14 <./Figures/9.pdf>] [15 <./Figures/10.pdf>]
-<Figures/12.pdf, id=747, 466.74374pt x 104.39pt>
+ [14 <./Figures/9.pdf>]
+Underfull \hbox (badness 1259) in paragraph at lines 247--248
+\T1/ppl/m/n/12 représen-ter un en-sem-ble de tran-sis-tors per-me-t-tant de réa
+liser une fonc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+[15 <./Figures/10.pdf>] <Figures/12.pdf, id=743, 466.74374pt x 104.39pt>
 File: Figures/12.pdf Graphic file (type pdf)
- <use Figures/12.pdf>
+
+<use Figures/12.pdf>
 Package pdftex.def Info: Figures/12.pdf used on input line 259.
 (pdftex.def)             Requested size: 338.96811pt x 75.80727pt.
 
@@ -2434,7 +2439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-[16 <./Figures/12.pdf>] <Figures/13.pdf, id=766, 466.74374pt x 104.39pt>
+[16 <./Figures/12.pdf>] <Figures/13.pdf, id=762, 466.74374pt x 104.39pt>
 File: Figures/13.pdf Graphic file (type pdf)
 
 <use Figures/13.pdf>
@@ -2445,7 +2450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-<Figures/14.pdf, id=767, 961.5925pt x 257.96375pt>
+<Figures/14.pdf, id=763, 961.5925pt x 257.96375pt>
 File: Figures/14.pdf Graphic file (type pdf)
  <use Figures/14.pdf>
 Package pdftex.def Info: Figures/14.pdf used on input line 295.
@@ -2454,36 +2459,11 @@ Package pdftex.def Info: Figures/14.pdf used on input line 295.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./Figures/13.pdf>] <Figures/15.pdf, id=785, 466.74374pt x 104.39pt>
-File: Figures/15.pdf Graphic file (type pdf)
-
-<use Figures/15.pdf>
-Package pdftex.def Info: Figures/15.pdf used on input line 313.
-(pdftex.def)             Requested size: 338.96811pt x 75.80727pt.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 314.
- <Figures/11.pdf, id=786, 466.74374pt x 104.39pt>
-File: Figures/11.pdf Graphic file (type pdf)
-
-<use Figures/11.pdf>
-Package pdftex.def Info: Figures/11.pdf used on input line 321.
-(pdftex.def)             Requested size: 338.96811pt x 75.80727pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18 <./Figures/14.pdf> <./Figures/15.pdf
-
-pdfTeX warning: pdflatex (file ./Figures/15.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->]) [19 <./Figures/11.pdf>]
+[17 <./Figures/13.pdf>] [18 <./Figures/14.pdf>] [19]) [20]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (./Chapters/Chapter2.tex [20
 
-
-
-]
+(./Chapters/Chapter2.tex
 Chapter 2.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 2--354
@@ -2502,7 +2482,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--354
  []
 
 1: section
-[21]
+[21
+
+
+
+]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex [22
@@ -2581,7 +2565,7 @@ con-sid-ered in
 
 ]
 Chapter 7.
-<Figures/3.jpg, id=882, 1170.3725pt x 498.86375pt>
+<Figures/3.jpg, id=873, 1170.3725pt x 498.86375pt>
 File: Figures/3.jpg Graphic file (type jpg)
  <use Figures/3.jpg>
 Package pdftex.def Info: Figures/3.jpg used on input line 4.
@@ -2607,7 +2591,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--23
 
  (./Chapters/Chapter8.tex
 Chapter 8.
-<Figures/1.png, id=892, 1125.20375pt x 526.96875pt>
+<Figures/1.png, id=883, 1125.20375pt x 526.96875pt>
 File: Figures/1.png Graphic file (type png)
  <use Figures/1.png>
 Package pdftex.def Info: Figures/1.png used on input line 7.
@@ -2629,7 +2613,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 16--20
 
 
  <./Figures/1.png (PNG copy)>]
-<Figures/5.png, id=899, 662.475pt x 259.97125pt>
+<Figures/5.png, id=890, 662.475pt x 259.97125pt>
 File: Figures/5.png Graphic file (type png)
  <use Figures/5.png>
 Package pdftex.def Info: Figures/5.png used on input line 24.
@@ -2639,7 +2623,7 @@ Overfull \hbox (20.03261pt too wide) in paragraph at lines 24--26
  [] 
  []
 
-<Figures/4.png, id=900, 928.46875pt x 319.1925pt>
+<Figures/4.png, id=891, 928.46875pt x 319.1925pt>
 File: Figures/4.png Graphic file (type png)
  <use Figures/4.png>
 Package pdftex.def Info: Figures/4.png used on input line 30.
@@ -2650,7 +2634,7 @@ Overfull \hbox (20.03261pt too wide) in paragraph at lines 30--32
  []
 
 [34 <./Figures/5.png (PNG copy)> <./Figures/4.png (PNG copy)>]
-<Figures/2.png, id=909, 1226.5825pt x 318.18875pt>
+<Figures/2.png, id=899, 1226.5825pt x 318.18875pt>
 File: Figures/2.png Graphic file (type png)
  <use Figures/2.png>
 Package pdftex.def Info: Figures/2.png used on input line 71.
@@ -2670,7 +2654,7 @@ Chapter 9.
 
 
 
-] <Figures/zoom.jpg, id=935, 1082.0425pt x 922.44624pt>
+] <Figures/zoom.jpg, id=925, 1082.0425pt x 922.44624pt>
 File: Figures/zoom.jpg Graphic file (type jpg)
 
 <use Figures/zoom.jpg>
@@ -2680,7 +2664,7 @@ Package pdftex.def Info: Figures/zoom.jpg used on input line 78.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/all.png, id=936, 1904.11375pt x 859.21pt>
+<Figures/all.png, id=926, 1904.11375pt x 859.21pt>
 File: Figures/all.png Graphic file (type png)
  <use Figures/all.png>
 Package pdftex.def Info: Figures/all.png used on input line 86.
@@ -2712,7 +2696,7 @@ Overfull \hbox (204.66371pt too wide) in paragraph at lines 101--118
 
 (./Chapters/Chapter10.tex
 Chapter 10.
-<Figures/6.png, id=955, 1934.22626pt x 469.755pt>
+<Figures/6.png, id=945, 1934.22626pt x 469.755pt>
 File: Figures/6.png Graphic file (type png)
  <use Figures/6.png>
 Package pdftex.def Info: Figures/6.png used on input line 13.
@@ -2775,7 +2759,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FCDFF1B00D31CECFD3F9B64E8C1D5549;7279.
+(rerunfilecheck)             Checksum: 9E3AFE2DB9CAF070079CDA9CC608EBE0;7280.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2785,11 +2769,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42216 strings out of 495025
- 866295 string characters out of 6181515
- 1001360 words of memory out of 5000000
- 44464 multiletter control sequences out of 15000+600000
- 82011 words of font info for 161 fonts, out of 8000000 for 9000
+ 42218 strings out of 495025
+ 866273 string characters out of 6181515
+ 1001443 words of memory out of 5000000
+ 44454 multiletter control sequences out of 15000+600000
+ 80562 words of font info for 159 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  64i,20n,83p,10402b,2561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr
@@ -2806,10 +2790,10 @@ texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb>
-Output written on main.pdf (72 pages, 2338768 bytes).
+Output written on main.pdf (72 pages, 2307659 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 926 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 928 compressed objects within 10 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,24 +10,22 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces (a) Placement compact. (b) Repr\IeC {\'e}sentation en {\it TCG} du placement compact (a).\relax }}{7}{figure.caption.30}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Notre approche permet la g\IeC {\'e}n\IeC {\'e}ration rapide de plusieurs placements\relax }}{12}{figure.caption.41}
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Difficult\IeC {\'e}s \IeC {\`a} \IeC {\'e}carter un placement non slicing-tree\relax }}{13}{figure.caption.43}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Difficult\IeC {\'e}s \IeC {\`a} \IeC {\'e}carter un placement non slicing-tree\relax }}{14}{figure.caption.46}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Evolution des d\IeC {\'e}coupes d'un slicing tree\relax }}{14}{figure.caption.46}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces (a) Placement repr\IeC {\'e}sentable par un \textit {slicing tree} (b) Placement non repr\IeC {\'e}sentable par un \textit {slicing tree}\relax }}{15}{figure.caption.47}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Les param\IeC {\`e}tres r\IeC {\'e}glables des devices, (a) Style de dessin des masques, (b) Variation du nombre de doigts et (c) Variation de la taille des connecteurs.\relax }}{16}{figure.caption.49}
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Espace de routage vertical et horizontal\relax }}{17}{figure.caption.50}
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Noeud hi\IeC {\'e}rarchique vertical avec une organisation en bande\relax }}{18}{figure.caption.51}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Propagation des dimensions du placement dans un \textbf {slicing tree}\relax }}{18}{figure.caption.53}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Interface de programmation du placeur analogique et mixte\relax }}{19}{figure.caption.54}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Cairo Hurricane AMS Design Flow\relax }}{31}{figure.caption.64}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Cairo Hurricane AMS Design Flow\relax }}{31}{figure.caption.78}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Evolution of 2 rows from layout 1 and 6 of Table II for different global aspect ratios. These figures have the same scale.\relax }}{39}{figure.caption.97}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Layouts of the fully differential transconductor cite{19} from Table II. These figures have all the same scale.\relax }}{40}{figure.caption.98}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Evolution of 2 rows from layout 1 and 6 of Table II for different global aspect ratios. These figures have the same scale.\relax }}{39}{figure.caption.111}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Layouts of the fully differential transconductor cite{19} from Table II. These figures have all the same scale.\relax }}{40}{figure.caption.112}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Dijkstra pathfinding algorithm\relax }}{41}{figure.caption.102}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Dijkstra pathfinding algorithm\relax }}{41}{figure.caption.116}
 \addvspace {10\p@ }

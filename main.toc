@@ -20,28 +20,28 @@
 \contentsline {subsection}{\numberline {1.3.2}M\IeC {\'e}thodologie de placement}{13}{subsection.44}
 \contentsline {subsubsection}{D\IeC {\'e}finition d'une topologie de placement}{14}{section*.45}
 \contentsline {subsubsection}{Expression des contraintes de placement}{15}{section*.48}
-\contentsline {subsubsection}{Algorithme de placement}{19}{section*.55}
-\contentsline {section}{\numberline {1.4}Exemples}{19}{section.56}
-\contentsline {section}{\numberline {1.5}Conclusion}{19}{section.57}
-\contentsline {chapter}{\numberline {2}Problem Definition}{21}{chapter.58}
-\contentsline {chapter}{\numberline {3}State of the Art}{23}{chapter.59}
-\contentsline {chapter}{\numberline {4}Academic Tools}{25}{chapter.60}
-\contentsline {chapter}{\numberline {5}Industrial Tools}{27}{chapter.61}
-\contentsline {chapter}{\numberline {6}Challenges}{29}{chapter.62}
-\contentsline {chapter}{\numberline {7}Analog/Mixed-signal Design Approach}{31}{chapter.63}
-\contentsline {section}{\numberline {7.1}Design Flow}{31}{section.65}
-\contentsline {section}{\numberline {7.2}Placement in row}{32}{section.66}
-\contentsline {chapter}{\numberline {8}Methodology for the placement}{33}{chapter.67}
-\contentsline {section}{\numberline {8.1}Slicing Tree Construction}{33}{section.69}
-\contentsline {section}{\numberline {8.2}Devices Variations}{34}{section.70}
-\contentsline {section}{\numberline {8.3}Margin Tolerances}{35}{section.74}
-\contentsline {section}{\numberline {8.4}Placement Constraints}{35}{section.76}
-\contentsline {section}{\numberline {8.5}Placement Choice}{36}{section.77}
-\contentsline {chapter}{\numberline {9}Placement Algorithm}{37}{chapter.78}
-\contentsline {section}{\numberline {9.1}Theory}{37}{section.79}
-\contentsline {section}{\numberline {9.2}Results}{38}{section.96}
-\contentsline {chapter}{\numberline {10}Future Work: Routing}{41}{chapter.100}
-\contentsline {section}{\numberline {10.1}Global Routing}{41}{section.101}
-\contentsline {subsection}{\numberline {10.1.1}Detailed Routing}{41}{subsection.103}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{43}{appendix.104}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{43}{section.105}
+\contentsline {subsubsection}{Algorithme de placement}{18}{section*.53}
+\contentsline {section}{\numberline {1.4}Exemples}{20}{section.70}
+\contentsline {section}{\numberline {1.5}Conclusion}{20}{section.71}
+\contentsline {chapter}{\numberline {2}Problem Definition}{21}{chapter.72}
+\contentsline {chapter}{\numberline {3}State of the Art}{23}{chapter.73}
+\contentsline {chapter}{\numberline {4}Academic Tools}{25}{chapter.74}
+\contentsline {chapter}{\numberline {5}Industrial Tools}{27}{chapter.75}
+\contentsline {chapter}{\numberline {6}Challenges}{29}{chapter.76}
+\contentsline {chapter}{\numberline {7}Analog/Mixed-signal Design Approach}{31}{chapter.77}
+\contentsline {section}{\numberline {7.1}Design Flow}{31}{section.79}
+\contentsline {section}{\numberline {7.2}Placement in row}{32}{section.80}
+\contentsline {chapter}{\numberline {8}Methodology for the placement}{33}{chapter.81}
+\contentsline {section}{\numberline {8.1}Slicing Tree Construction}{33}{section.83}
+\contentsline {section}{\numberline {8.2}Devices Variations}{34}{section.84}
+\contentsline {section}{\numberline {8.3}Margin Tolerances}{35}{section.88}
+\contentsline {section}{\numberline {8.4}Placement Constraints}{35}{section.90}
+\contentsline {section}{\numberline {8.5}Placement Choice}{36}{section.91}
+\contentsline {chapter}{\numberline {9}Placement Algorithm}{37}{chapter.92}
+\contentsline {section}{\numberline {9.1}Theory}{37}{section.93}
+\contentsline {section}{\numberline {9.2}Results}{38}{section.110}
+\contentsline {chapter}{\numberline {10}Future Work: Routing}{41}{chapter.114}
+\contentsline {section}{\numberline {10.1}Global Routing}{41}{section.115}
+\contentsline {subsection}{\numberline {10.1.1}Detailed Routing}{41}{subsection.117}
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{43}{appendix.118}
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{43}{section.119}
